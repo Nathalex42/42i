@@ -4,15 +4,13 @@ My work from the 42 Piscine (C), by nathalex.
 
 Content
 Module	Topic
-Shell00 / Shell01	Shell basics, permissions, git
-C00 to C04	Output, pointers, strings, numbers
-C05 to C09	Recursion, memory allocation, Makefile, libraries
-Rush / BSQ	Group projects
+Shell basics, permissions, git
+Output, pointers, strings, numbers
+Recursion, memory allocation, Makefile, libraries
 Compilation
 
 Each exercise compiles with:
 
-bash
 cc -Wall -Wextra -Werror <file>.c
 
 Code follows the 42 Norm (norminette).
