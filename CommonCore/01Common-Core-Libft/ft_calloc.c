@@ -6,7 +6,7 @@
 /*   By: nathalex <nathalex@learner.42.tech>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 16:52:17 by nathalex          #+#    #+#             */
-/*   Updated: 2026/11/07 16:54:27 by nathalex         ###   ########.fr       */
+/*   Updated: 2026/11/13 16:43:31 by nathalex         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,7 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	if (size != 0 && nmemb > SIZE_MAX / size)
 		return (NULL);
 	taille = nmemb * size;
-	if (taille == 0)
-		res = malloc(1);
-	else
-		res = malloc(taille);
+	res = malloc(taille);
 	if (res == NULL)
 		return (NULL);
 	i = 0;
